@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Muthamilsuriyan/password-checker.git'
+                git branch: 'main', url: 'https://github.com/Muthamilsuriyan/password-checker.git'
             }
         }
 
